@@ -76,7 +76,7 @@ module.exports = (env, argv) => ({
       toType: 'dir'
     }]),
     new SWPrecacheWebpackPlugin({
-      cacheId: 'my-pwa-vue-app',
+      cacheId: 'de-toekomst',
       filename: 'service-worker-cache.js',
       staticFileGlobs: ['dist/**/*.{js,css,png,txt,map,html}', '/'],
       minify: true,
